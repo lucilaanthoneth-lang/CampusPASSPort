@@ -1,17 +1,39 @@
 package com.example.digistayslip;
 
-import org.junit.Test;
+import java.util.Scanner;
 
-import static org.junit.Assert.*;
-
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
 public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+
+    public static void main(String[] args) {
+        StaySlipComponent();
+    }
+
+    public static void StaySlipComponent() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter User ID: ");
+        String userId = scanner.nextLine();
+
+        System.out.print("Enter Request Status (Pending/Approved/Denied): ");
+        String requestStatus = scanner.nextLine();
+
+        System.out.print("Enter Approver Name: ");
+        String approverName = scanner.nextLine();
+
+        System.out.print("Enter QR Code: ");
+        String qrCode = scanner.nextLine();
+
+        System.out.print("Enter Verification Status (Valid/Expired/Used): ");
+        String verificationStatus = scanner.nextLine();
+
+        System.out.println("\n--- Stay Slip Request Details ---");
+        System.out.println("User ID: " + userId);
+        System.out.println("Request Status: " + requestStatus);
+        System.out.println("Approver Name: " + approverName);
+        System.out.println("QR Code: " + qrCode);
+        System.out.println("Verification Status: " + verificationStatus);
+
+        scanner.close();
     }
 }
