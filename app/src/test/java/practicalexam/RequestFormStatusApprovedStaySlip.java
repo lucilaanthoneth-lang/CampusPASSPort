@@ -2,7 +2,7 @@ package practicalexam;
 
 import java.util.Scanner;
 
-public class RUN {
+public class RequestFormStatusApprovedStaySlip {
     public static void main(String[] args) {
     StaySlipComponent();
 }
