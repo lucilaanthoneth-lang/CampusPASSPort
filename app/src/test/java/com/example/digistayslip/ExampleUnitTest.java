@@ -2,7 +2,7 @@ package com.example.digistayslip;
 
 import java.util.Scanner;
 
-public class ExampleUnitTest {
+public class  ExampleUnitTest {
 
     public static void main(String[] args) {
         StaySlipComponent();
