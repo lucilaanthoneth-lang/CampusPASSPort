@@ -1,12 +1,11 @@
-package com.example.digistayslip;
+package practicalexam;
 
 import java.util.Scanner;
 
-public class  ExampleUnitTest {
-
+public class RUN {
     public static void main(String[] args) {
-        StaySlipComponent();
-    }
+    StaySlipComponent();
+}
 
     public static void StaySlipComponent() {
 
@@ -37,3 +36,5 @@ public class  ExampleUnitTest {
         scanner.close();
     }
 }
+
+
