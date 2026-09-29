@@ -1,4 +1,4 @@
-package com.example.digistayslip.quarter2;
+package com.example.digistayslip.practicalexam.practicalexam.quarter2.yourgroupname;
 import org.junit.Test;
 public class AQUINOTest {
     @Test

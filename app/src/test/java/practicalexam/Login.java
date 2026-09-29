@@ -2,7 +2,7 @@ package practicalexam;
 
 import java.util.Scanner;
 
-public class login {
+public class Login {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
