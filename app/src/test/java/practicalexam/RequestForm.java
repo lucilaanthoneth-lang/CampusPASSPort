@@ -29,9 +29,8 @@ public class RequestForm {
         System.out.println("Reason for Stay Slip: " + reasonForStaySlip);
         System.out.println("Date of Stay: " + dateOfStay);
         System.out.println("Time of Stay: " + timeOfStay);
-
+        System.out.println("Thank you for submitting the request!");
         scanner.close();
-
 
     }
 
