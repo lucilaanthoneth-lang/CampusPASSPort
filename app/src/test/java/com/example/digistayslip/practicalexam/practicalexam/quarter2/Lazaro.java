@@ -1,6 +1,6 @@
 package com.example.digistayslip.practicalexam.practicalexam.quarter2;
 import org.junit.Test;
-public class lazaro {
+public class Lazaro {
 
     @Test
     public void printMYprofile() {
