@@ -3,10 +3,8 @@ package practicalexam;
 import java.util.Scanner;
 
 public class RequestForm {
-    public static void main(String[] args) { RequestFormInput();}
 
-    public static void RequestFormInput() {
-        Scanner scanner = new Scanner(System.in);
+    public static void RequestFormInput(Scanner scanner) {
 
         System.out.print("Enter Your UserId: ");
         String userId = scanner.nextLine();
@@ -29,12 +27,6 @@ public class RequestForm {
         System.out.println("Reason for Stay Slip: " + reasonForStaySlip);
         System.out.println("Date of Stay: " + dateOfStay);
         System.out.println("Time of Stay: " + timeOfStay);
-
-        scanner.close();
-
-
     }
-
 }
-
 

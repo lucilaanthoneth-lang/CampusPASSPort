@@ -4,37 +4,48 @@ import java.util.Scanner;
 
 public class MainMenu {
 
-    public void Menu( Scanner scanner) {
+    public void Menu(Scanner menuinput) {
 
-        System.out.println("----- MAIN MENU -----");
-        System.out.println("1. Log-in Page");
-        System.out.println("2. Request Page");
-        System.out.println("3. Request Form Status");
-        System.out.println("4. Exit");
+        boolean choosing = true;
 
-        System.out.print("Enter your choice: ");
+        do {
+            System.out.println("=====MAIN MENU=====");
+            System.out.println("1. Request Form");
+            System.out.println("2. Request Form Status");
+            System.out.println("3. Exit");
+            System.out.print("Please choose an option (1, 2, 3): ");
 
-        int choice = scanner.nextInt();
+            String choice = menuinput.nextLine();
 
-        switch (choice) {
-            case 1:
-                System.out.println("Opening Log-in Page...");
-                break;
+            System.out.println(choice);
 
-            case 2:
-                System.out.println("Opening Request Page...");
-                break;
+            if (choice.equals("1")) {
 
-            case 3:
-                System.out.println("Opening Request Form Status...");
-                break;
+                RequestForm.RequestFormInput(menuinput);
 
-            case 4:
-                System.out.println("Exiting system...");
-                break;
+            }
 
-            default:
-                System.out.println("Invalid choice.");
-        }
+            else if (choice.equals("2")) {
+
+                RequestFormStatusApprovedStaySlip.StaySlipComponent(menuinput);
+
+            }
+
+            else if (choice.equals("3")) {
+
+                System.out.println("Goodbye!");
+                choosing = false;
+
+            }
+
+            else {
+
+                System.out.println("===================");
+                System.out.println("Invalid choice please try again.");
+                System.out.println("===================");
+
+            }
+
+        } while (choosing);
     }
 }
