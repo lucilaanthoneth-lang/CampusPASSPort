@@ -3,13 +3,8 @@ package practicalexam;
 import java.util.Scanner;
 
 public class RequestFormStatusApprovedStaySlip {
-    public static void main(String[] args) {
-    StaySlipComponent();
-}
 
-    public static void StaySlipComponent() {
-
-        Scanner scanner = new Scanner(System.in);
+    public static void StaySlipComponent(Scanner scanner) {
 
         System.out.print("Enter User ID: ");
         String userId = scanner.nextLine();
@@ -32,9 +27,6 @@ public class RequestFormStatusApprovedStaySlip {
         System.out.println("Approver Name: " + approverName);
         System.out.println("QR Code: " + qrCode);
         System.out.println("Verification Status: " + verificationStatus);
-
-        scanner.close();
     }
 }
-
 
