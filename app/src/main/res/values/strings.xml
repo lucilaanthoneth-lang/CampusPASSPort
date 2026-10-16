@@ -1,17 +1,3 @@
 <resources>
     <string name="app_name">Digistayslip</string>
-    <string name="form_signage">form signage</string>
-    <string name="users_account_name">users account name</string>
-    <string name="digital_stay_slip_signage">digital stay slip signage</string>
-    <string name="user_profile_picture">user profile picture</string>
-    <string name="dela_cruz_juan_s">Dela Cruz, Juan S.</string>
-    <string name="name_s">Name/s:</string>
-    <string name="time_in_amp_out_of_stay"><![CDATA[Time in & out of Stay:]]></string>
-    <string name="requested_date_date_of_stay">Requested Date/ Date of Stay:</string>
-    <string name="reason_for_stay">Reason for stay:</string>
-    <string name="consulted_teacher">Consulted Teacher:</string>
-    <string name="submit_button">submit button</string>
-    <string name="back_button_to_dashboard">back button to dashboard</string>
-    <string name="request_form_signage">request form signage</string>
-    <string name="grade_amp_section"><![CDATA[Grade & Section:]]></string>
 </resources>
