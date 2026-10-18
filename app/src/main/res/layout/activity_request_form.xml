@@ -14,12 +14,13 @@
         android:layout_marginStart="7dp"
         android:layout_marginTop="56dp"
         android:layout_marginEnd="7dp"
+        android:importantForAccessibility="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/reqf_digisign"
-        android:contentDescription="@string/digital_stay_slip_signage" />
+        />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,8 +30,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reqf_avatar"
-        android:contentDescription="@string/user_profile_picture"/>
+        app:srcCompat="@drawable/reqf_avatar" />
 
     <TextView
         android:id="@+id/textView"
@@ -48,7 +48,7 @@
         android:id="@+id/imageView3"
         android:layout_width="346dp"
         android:layout_height="28dp"
-        android:contentDescription="@string/request_form_signage"
+        android:importantForAccessibility="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
@@ -73,7 +73,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="@string/grade_amp_section"
+        android:hint="@string/grade_and_section"
         android:importantForAutofill="no"
         android:inputType="textPostalAddress"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,7 +101,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="@string/requested_date_date_of_stay"
+        android:hint="@string/requested_date"
         android:importantForAutofill="no"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
@@ -114,7 +114,7 @@
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="@string/time_in_amp_out_of_stay"
+        android:hint="@string/time_of_in_and_out_of_stay"
         android:importantForAutofill="no"
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="parent"
@@ -146,18 +146,19 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/reqf_submitbtn"
-        android:contentDescription="@string/submit_button"/>
+        android:contentDescription="@string/submit_button"
+        />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="69dp"
         android:layout_height="71dp"
         android:layout_marginBottom="4dp"
-        android:contentDescription="@string/back_button_to_dashboard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/reqf_backbtn" />
+        app:srcCompat="@drawable/reqf_backbtn"
+        android:contentDescription="@string/back_button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
