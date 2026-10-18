@@ -3,7 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F4FA"
     android:fillViewport="true">
 
     <LinearLayout
@@ -12,127 +11,79 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- HEADER -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Notifications"
-            android:textSize="26sp"
             android:textStyle="bold"
-            android:textColor="#172554"
-            android:paddingTop="20dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Stay Slip Request Updates"
             android:textSize="14sp"
             android:textColor="#64748B"
-            android:layout_marginTop="6dp"
-            android:layout_marginBottom="20dp"/>
 
-        <!-- APPROVED NOTIFICATION -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="18dp"
             android:elevation="3dp"
-            android:layout_marginBottom="14dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="✓  Request Approved"
-                android:textSize="17sp"
                 android:textStyle="bold"
-                android:textColor="#15803D"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Your stay slip request has been approved by the school administrator."
-                android:textSize="14sp"
-                android:textColor="#475569"
-                android:layout_marginTop="10dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Today • 8:30 AM"
-                android:textSize="12sp"
                 android:textColor="#94A3B8"
-                android:layout_marginTop="12dp"/>
         </LinearLayout>
 
-        <!-- PENDING NOTIFICATION -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
             android:elevation="3dp"
             android:orientation="vertical"
-            android:padding="18dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="◷  Request Pending"
-                android:textSize="17sp"
                 android:textStyle="bold"
-                android:textColor="#D97706"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Your stay slip request is currently being reviewed by the school administrator."
-                android:textSize="14sp"
-                android:textColor="#475569"
-                android:layout_marginTop="10dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Yesterday • 2:15 PM"
-                android:textSize="12sp"
                 android:textColor="#94A3B8"
-                android:layout_marginTop="12dp"/>
         </LinearLayout>
 
-        <!-- REJECTED NOTIFICATION -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="18dp"
-            android:elevation="3dp"
-            android:layout_marginBottom="14dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="✕  Request Rejected"
-                android:textSize="17sp"
                 android:textStyle="bold"
-                android:textColor="#DC2626"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Your stay slip request was declined. Please contact the school office for details."
-                android:textSize="14sp"
-                android:textColor="#475569"
-                android:layout_marginTop="10dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Oct 16 • 10:00 AM"
-                android:textSize="12sp"
                 android:textColor="#94A3B8"
-                android:layout_marginTop="12dp"/>
         </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
-
