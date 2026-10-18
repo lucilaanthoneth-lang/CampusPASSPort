@@ -1,13 +1,6 @@
 <resources>
     <string name="app_name">Digistayslip</string>
     <string name="dela_cruz_juan_s">Dela Cruz, Juan S.</string>
-    <string name="name_s">name/s</string>
-    <string name="grade_and_section">grade and section</string>
-    <string name="reason_for_stay">reason for stay</string>
-    <string name="requested_date">Requested Date</string>
-    <string name="time_of_in_and_out_of_stay">Time of in and out of stay</string>
-    <string name="consulted_teacher">Consulted Teacher</string>
-    <string name="submit_button">submit button</string>
     <string name="back_button">back button\n</string>
     <string name="back">back</string>
     <string name="status">status</string>
