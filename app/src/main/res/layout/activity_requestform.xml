@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".requestForm">
+    tools:context=".requestform">
 
     <ImageView
         android:id="@+id/imageView"
@@ -141,13 +141,13 @@
         android:layout_width="268dp"
         android:layout_height="46dp"
         android:layout_marginBottom="184dp"
+        android:contentDescription="@string/submit_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/reqf_submitbtn"
-        android:contentDescription="@string/submit_button"
-        />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton3"
