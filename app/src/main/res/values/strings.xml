@@ -10,4 +10,19 @@
     <string name="pending">pending</string>
     <string name="all">all</string>
     <string name="back_btn">back</string>
+    <string name="welcome">Welcome!</string>
+    <string name="your_student_id">Your Student ID</string>
+    <string name="student_id">Student ID</string>
+    <string name="password">Your Password</string>
+    <string name="password2">Password</string>
+    <string name="login">Login</string>
+    <string name="credentials">Enter your credentials to continue.</string>
+    <string name="student_login">STUDENT LOGIN</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="access">"Sign in to access your student account.</string>
+    <string name="portal">STUDENT PORTAL</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="student_stay_slip_req_system">STUDENT STAY SLIP REQUEST SYSTEM</string>
+    <string name="no_account">Dont have an account? </string>
+    <string name="sign_up">Sign Up</string>
 </resources>
