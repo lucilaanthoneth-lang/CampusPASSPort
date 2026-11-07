@@ -307,6 +307,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvDisplayGradeSection"
             android:layout_width="match_parent"
             android:layout_height="21dp"
             android:layout_marginTop="3dp"
@@ -330,6 +331,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvDisplayDateTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
@@ -345,6 +347,7 @@
             android:background="#E7EEF8" />
 
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="REASON FOR STAY"
@@ -353,6 +356,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/tvDisplayReason"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"

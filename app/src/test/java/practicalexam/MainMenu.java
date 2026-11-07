@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MainMenu {
 
-    public void Menu(Scanner menuinput) {
+    public static void RequestFormInput(Scanner menuinput) {
 
         boolean choosing = true;
 
@@ -21,8 +21,7 @@ public class MainMenu {
 
             if (choice.equals("1")) {
 
-                RequestForm.RequestFormInput(menuinput);
-
+                RequestForm.RequestFormInput();
             }
 
             else if (choice.equals("2")) {

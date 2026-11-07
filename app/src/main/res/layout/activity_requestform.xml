@@ -19,8 +19,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reqf_digisign"
-        />
+        app:srcCompat="@drawable/reqf_digisign" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -30,14 +29,15 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/reqf_avatar" />
+        app:srcCompat="@drawable/reqf_avatar"
+        android:contentDescription="User Avatar" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="191dp"
         android:layout_height="23dp"
         android:layout_marginTop="36dp"
-        android:text="@string/dela_cruz_juan_s"
+        android:text="Dela Cruz, Juan S."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.318"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,29 +54,28 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/reqf_sign" />
 
-    <FrameLayout
+    <View
+        android:id="@+id/formBackgroundCard"
         android:layout_width="358dp"
         android:layout_height="448dp"
         android:layout_marginStart="14dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="24dp"
         android:background="#E5F0FF"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.0">
-
-    </FrameLayout>
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/etName"
         android:layout_width="303dp"
         android:layout_height="49dp"
         android:layout_marginTop="22dp"
         android:ems="10"
-        android:hint="  Name/s"
+        android:hint="Name/s"
         android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,51 +85,51 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
-        android:id="@+id/editTextTextPostalAddress"
+        android:id="@+id/etGradeSection"
         android:layout_width="305dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint=" Grade and Section  "
+        android:hint="Grade and Section"
         android:importantForAutofill="no"
         android:background="#FFFFFF"
         android:inputType="textPostalAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/etName"/>
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/etReason"
         android:layout_width="306dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="  Reason for Stay  "
+        android:hint="Reason for Stay"
         android:importantForAutofill="no"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/etGradeSection" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/etDate"
         android:layout_width="308dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="  Requested date"
+        android:hint="Requested date"
         android:importantForAutofill="no"
         android:background="#FFFFFF"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+        app:layout_constraintTop_toBottomOf="@+id/etReason" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/etTime"
         android:layout_width="306dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
@@ -142,10 +141,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+        app:layout_constraintTop_toBottomOf="@+id/etDate" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/etTeacher"
         android:layout_width="299dp"
         android:layout_height="48dp"
         android:layout_marginTop="20dp"
@@ -157,14 +156,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTime" />
+        app:layout_constraintTop_toBottomOf="@+id/etTime" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnSubmit"
         android:layout_width="268dp"
         android:layout_height="46dp"
         android:layout_marginBottom="168dp"
-        android:contentDescription=" Submit_button"
+        android:contentDescription="Submit_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -173,7 +172,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnBack"
         android:layout_width="69dp"
         android:layout_height="71dp"
         android:layout_marginBottom="4dp"
@@ -182,6 +181,6 @@
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/reqf_backbtn"
-        android:contentDescription=" Back button"/>
+        android:contentDescription="Back button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

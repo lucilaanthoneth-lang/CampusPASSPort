@@ -15,74 +15,115 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Notifications"
-            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#244A78"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16sp"
             android:textSize="14sp"
             android:textColor="#64748B"
+            android:text="Recent updates and messages" />
 
+        <!-- Notification Card 1 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:elevation="3dp"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="3dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:textColor="#244A78"
+                android:text="Stay Slip Approved" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="#4A5568"
+                android:text="Your request has been approved by your teacher." />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="11sp"
                 android:textColor="#94A3B8"
+                android:text="Just now" />
         </LinearLayout>
 
+        <!-- Notification Card 2 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:elevation="3dp"
-            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:textColor="#244A78"
+                android:text="Request Submitted" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="#4A5568"
+                android:text="Your stay slip form was successfully submitted." />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="11sp"
                 android:textColor="#94A3B8"
+                android:text="1 hour ago" />
         </LinearLayout>
 
+        <!-- Notification Card 3 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="12dp"
             android:orientation="vertical"
+            android:elevation="3dp">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:textColor="#244A78"
+                android:text="System Update" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="#4A5568"
+                android:text="Welcome to the Digital Stay Slip system." />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="11sp"
                 android:textColor="#94A3B8"
+                android:text="Yesterday" />
         </LinearLayout>
 
     </LinearLayout>
