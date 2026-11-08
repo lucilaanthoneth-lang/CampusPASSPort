@@ -12,12 +12,12 @@ public class requestformstatus extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_requestformstatus);
 
-        // 1. Find the TextViews from your reqformstatus.xml layout
+
         TextView tvDisplayGradeSection = findViewById(R.id.tvDisplayGradeSection);
         TextView tvDisplayDateTime = findViewById(R.id.tvDisplayDateTime);
         TextView tvDisplayReason = findViewById(R.id.tvDisplayReason);
 
-        // 2. Receive the data sent via Intent from requestform.java
+
         Intent intent = getIntent();
         String name = intent.getStringExtra("EXTRA_NAME");
         String gradeSection = intent.getStringExtra("EXTRA_GRADE_SECTION");
@@ -26,7 +26,7 @@ public class requestformstatus extends AppCompatActivity {
         String time = intent.getStringExtra("EXTRA_TIME");
         String teacher = intent.getStringExtra("EXTRA_TEACHER");
 
-        // 3. Display the received data inside the TextViews safely
+
         if (gradeSection != null) {
             tvDisplayGradeSection.setText(gradeSection);
         }
